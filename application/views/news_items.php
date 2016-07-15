@@ -31,6 +31,10 @@ include_once 'application/models/NewsArticle.php';
 </div>
 {/articleNews}
  -->
+<hr>
+<h1>News Desk (or table if you prefer)</h1>
+<?php echo $tabular[0];?>
+<br>
 
  <?php
  $this->load->helper('form');

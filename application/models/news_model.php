@@ -14,8 +14,11 @@ class News_Model extends CI_Model {
 		/* echo "<h1>News items from DB :</h1>";
 		var_dump($query->result()); */
 		return $query->result();
+	}
 
-// 		return "Something Kool";
+	function getNewNews() {
+		$query = $this->db->get('news');
+		return $query->result_array();
 	}
 
 	function insert_news($title, $details) {

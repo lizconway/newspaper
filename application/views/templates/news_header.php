@@ -5,7 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
 	<meta charset="utf-8">
 	<title>Da Noooz</title>
-
+	<link rel="stylesheet" href="<?php echo base_url();?>css/news.css">
 	<style type="text/css">
 
 	::selection { background-color: #E13300; color: white; }
@@ -66,5 +66,3 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	</style>
 </head>
 <body>
-
-<h1>Welcome to the News</h1>
